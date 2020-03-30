@@ -1,0 +1,17 @@
+# Blogger Sitemap generated on 2020.03.29
+User-agent: *
+Disallow: /search
+Allow: /
+Sitemap: https://www.atulkverma.com/atom.xml?redirect=false&start-index=1&max-results=500
+
+
+
+
+User-agent: Mediapartners-Google
+Disallow: 
+
+User-agent: *
+Disallow: /search
+Allow: /
+
+Sitemap: https://www.atulkverma.com/sitemap.xml
