@@ -1,0 +1,27 @@
+<div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+    <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+      <img style='display:none;' src='https://atulkverma.com'/>
+      <meta itemprop='url' content='https://atulkverma.com'/>
+      <meta itemprop='width' content='600'/>
+      <meta itemprop='height' content='60'/>
+    </div>
+    <meta itemprop='name' expr:content='data:blog.title'/>
+</div>
+
+
+
+ <!-- Atul FIX - The dateModified field is recommended. Please provide a value if available. START-->
+                        <meta expr:content='data:post.timestamp' itemprop='datePublished'/>
+						<meta expr:content='data:post.lastUpdatedISO8601' itemprop='dateModified'/>
+ <!-- Atul FIX - The dateModified field is recommended. Please provide a value if available. END-->
+ 
+ 
+ The mainEntityOfPage field is recommended. Please provide a value if available.
+ 
+ 
+<div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta itemscope='itemscope' itemprop='mainEntityOfPage'  
+itemType='https://schema.org/WebPage' 
+expr:itemid='data:post.link ? data:post.link : data:post.url'/>
+
+<meta expr:itemid='data:post.link ? data:post.link : data:post.url' itemType='https://schema.org/WebPage' itemprop='mainEntityOfPage' itemscope='itemscope'/>
